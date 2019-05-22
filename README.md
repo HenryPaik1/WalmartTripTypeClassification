@@ -1,7 +1,7 @@
 # Trip Type Classification
 - Kaggle: https://www.kaggle.com/c/walmart-recruiting-trip-type-classification
-- Using gradient boosting(`LightGBM`)
-- Key feature: **Upc > FinelineNumber > Department**
+- Used gradient boosting(`LightGBM`)
+- Key features: **Upc > FinelineNumber > Department**
 
 ## Data Fields
 - TripType - a categorical id representing the type of shopping trip the customer made. This is the ground truth that you are predicting. TripType_999 is an "other" category.
