@@ -12,4 +12,11 @@
 - DepartmentDescription - a high-level description of the item's department
 - FinelineNumber - a more refined category for each of the products, created by Walmart
 
+## Key concept
+- Apply weight using `Upc, FinelineNumber` info.
+- Groupby('TripType'), PCA  and get weight
+- Please refer to `Apply_Weight_EDA.ipynb` for the details.
+- eg. Part of upc_weigth `DataFrame`
+<img src='upc_weight.png'>
+
 
