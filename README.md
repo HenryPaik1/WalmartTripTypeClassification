@@ -1,7 +1,7 @@
 # Trip Type Classification
 - Kaggle: https://www.kaggle.com/c/walmart-recruiting-trip-type-classification
 - Used gradient boosting(`LightGBM`)
-- Key features: **Upc > FinelineNumber > Department**
+- Key features: **Weight > Upc > FinelineNumber > Department**
 
 ## Data Fields
 - TripType - a categorical id representing the type of shopping trip the customer made. This is the ground truth that you are predicting. TripType_999 is an "other" category.
@@ -17,6 +17,6 @@
 - Groupby('TripType'), PCA  and get weight
 - Please refer to `Apply_Weight_EDA.ipynb` for the details.
 - eg. Part of upc_weigth `DataFrame`
-<img src='upc_weight.png'>
+<img src="upc_weight.png">
 
 
