@@ -16,7 +16,7 @@
 - Apply weight using `Upc, FinelineNumber` info.
 - Groupby('TripType'), PCA  and get weight
 - Please refer to `Apply_Weight_EDA.ipynb` for the details.
-- eg. Part of upc_weigth `DataFrame`
+- eg. Part of upc_weigth `DataFrame`(X axis: TripType, Y axis: Upc info.)
 <img src="upc_weight.png">
 
 
