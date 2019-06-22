@@ -1,6 +1,6 @@
 # Trip Type Classification
 - Kaggle: https://www.kaggle.com/c/walmart-recruiting-trip-type-classification
-- Used gradient boosting(`LightGBM`)
+- Used gradient boosting(`XGBoost`)
 - Key features: **Weight > Upc > FinelineNumber > Department**
 
 ## Data Fields
@@ -13,6 +13,13 @@
 - FinelineNumber - a more refined category for each of the products, created by Walmart
 
 ## Key concept
+### 1. PCA
+- Apply PCA to the DataFrame grouped by 'TripType'
+- Please refer to `Model_EDA.ipynb` and pictures below:
+<img src="TripType_1.png">
+<img src="TripType_2.png">
+
+### 2. Weight
 - Apply weight using `Upc, FinelineNumber` info.
 - Groupby('TripType'), PCA  and get weight
 - Please refer to `Apply_Weight_EDA.ipynb` for the details.
