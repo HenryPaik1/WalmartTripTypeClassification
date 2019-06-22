@@ -17,11 +17,11 @@
 - Apply PCA to the DataFrame grouped by 'TripType'
 - Please refer to `Model_EDA.ipynb` and pictures below:
 
-<center><figure 1></center>
+<br align="center"><figure 1></br>
 
 <img src="TripType_1.png">
 
-<center><figure 2></center>
+<br align="center"><figure 2></br>
 
 <img src="TripType_2.png">
 
