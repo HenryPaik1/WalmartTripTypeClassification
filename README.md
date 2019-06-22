@@ -18,10 +18,10 @@
 - Please refer to `Model_EDA.ipynb` and pictures below:
 
 <br align="center"><figure 1></br>
-<img src="TripType_1.png">
+<img src="TripType_1.png" width="150">
 
 <br align="center"><figure 2></br>
-<img src="TripType_2.png">
+<img src="TripType_2.png" width="150">
 
 ### 2. Weight
 - Apply weight using `Upc, FinelineNumber` info.
