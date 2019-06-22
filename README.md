@@ -16,7 +16,9 @@
 ### 1. PCA
 - Apply PCA to the DataFrame grouped by 'TripType'
 - Please refer to `Model_EDA.ipynb` and pictures below:
+\<figure 1\>
 <img src="TripType_1.png">
+\<figure 2\>
 <img src="TripType_2.png">
 
 ### 2. Weight
