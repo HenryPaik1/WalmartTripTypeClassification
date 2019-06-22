@@ -18,11 +18,9 @@
 - Please refer to `Model_EDA.ipynb` and pictures below:
 
 <br align="center"><figure 1></br>
-
 <img src="TripType_1.png">
 
 <br align="center"><figure 2></br>
-
 <img src="TripType_2.png">
 
 ### 2. Weight
